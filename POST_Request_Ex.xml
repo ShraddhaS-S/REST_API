@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="4828a3e5-ed2e-4116-bb2e-f6b84216a2ab" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+      <con:settings/>
+      <con:savedRecentRuns>1</con:savedRecentRuns>
+      
+      <con:testStep type="restrequest" name="POST_Ex-1" id="0fcb77dc-2df2-484d-8b46-913f849efe41"><con:settings/><con:config service="http://thetestingworldapi.com 1" resourcePath="/api/studentsDetails" methodName="StudentsDetails" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="POST_Ex-1" id="2e5ff433-99a5-4be2-a331-9fedeeee839f" mediaType="application/json" postQueryString="false">
+          <con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings>
+          <con:endpoint>http://thetestingworldapi.com</con:endpoint>
+          <con:request>{
+    "first_name": "Ashish",
+  "middle_name": "Navin",
+  "last_name": "Sharma",
+  "date_of_birth": "20-11-1999"
+}</con:request>
+          <con:originalUri>http://thetestingworldapi.com/api/studentsDetails</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="3e2ae40e-f25e-4267-aa17-39c766781224" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Response SLA Assertion" id="c2b8ed1c-6743-41ba-bcd1-d46c48793fa0" name="Response SLA"><con:configuration><SLA>200</SLA></con:configuration></con:assertion><con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:restRequest></con:config></con:testStep><con:properties/>
+      <con:reportParameters/>
+    </con:testCase>

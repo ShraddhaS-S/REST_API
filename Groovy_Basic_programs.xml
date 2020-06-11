@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="370300bb-35e3-404a-9b81-3b0cb76fd4a9" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 3" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+      <con:settings/>
+      <con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Groovy Script_Operators" id="0e073511-ca66-4c71-a350-d31990bfff43">
+        <con:settings/>
+        <con:config>
+          <script>def a=7
+	def b=5
+
+	//Addition
+	log.info(a+b)
+
+	//Subtraction
+	log.info(a-b)
+
+	//Multiplication
+	log.info(a*b)
+
+	//Division
+	log.info(a/b)</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Dec Making" id="3668156e-8df8-4276-b5cb-1b729bfd9a12">
+        <con:settings/>
+        <con:config><script>def a = 10
+        def b= 20
+        def c= a+b
+        log.info(c)
+      if (c&lt;50)
+      {  
+       log.info("Fail");  
+       }  
+       else 
+       {
+       log.info("Pass")
+       }</script></con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="For loop_basic" id="f46328f2-e59d-4ade-bb4f-c31bee8dc995"><con:settings/><con:config><script>int [] array = [0,1,2,3]
+         
+  for (int i in array)
+ {
+            log.info(i);
+      
+}</script></con:config></con:testStep><con:testStep type="groovy" name="For loop_2" id="023f922b-96fb-4209-9c81-8689492803ab"><con:settings/><con:config><script>for (num in 1..10)
+{
+         	if (num&lt;50)
+         	         	{
+         	  log.info ("Number is less than 50")
+         	}
+         	
+           else
+         	 {
+            log.info("Number is greater than 50")
+         	 }
+}   
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="While_Ex" id="33e5d14e-e809-4c88-9c33-72e460618793"><con:settings/><con:config><script>//num=[1,2,3,4,5,6,7,8,9,10]
+
+def i=0
+
+while( i &lt; 10)
+{
+	log.info(i)
+	
+	i++
+}</script></con:config></con:testStep><con:properties/>
+      <con:reportParameters/>
+    </con:testCase>
