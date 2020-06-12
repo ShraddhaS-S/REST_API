@@ -1,0 +1,178 @@
+GET Request : 
+http://dummy.restapiexample.com/api/v1/employees
+
+GET RESPONSE:
+
+<Response xmlns="http://dummy.restapiexample.com/api/v1/employees">
+   <status>success</status>
+   <data>
+      <e>
+         <id>1</id>
+         <employee_name>Tiger Nixon</employee_name>
+         <employee_salary>320800</employee_salary>
+         <employee_age>61</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>2</id>
+         <employee_name>Garrett Winters</employee_name>
+         <employee_salary>170750</employee_salary>
+         <employee_age>63</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>3</id>
+         <employee_name>Ashton Cox</employee_name>
+         <employee_salary>86000</employee_salary>
+         <employee_age>66</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>4</id>
+         <employee_name>Cedric Kelly</employee_name>
+         <employee_salary>433060</employee_salary>
+         <employee_age>22</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>5</id>
+         <employee_name>Airi Satou</employee_name>
+         <employee_salary>162700</employee_salary>
+         <employee_age>33</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>6</id>
+         <employee_name>Brielle Williamson</employee_name>
+         <employee_salary>372000</employee_salary>
+         <employee_age>61</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>7</id>
+         <employee_name>Herrod Chandler</employee_name>
+         <employee_salary>137500</employee_salary>
+         <employee_age>59</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>8</id>
+         <employee_name>Rhona Davidson</employee_name>
+         <employee_salary>327900</employee_salary>
+         <employee_age>55</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>9</id>
+         <employee_name>Colleen Hurst</employee_name>
+         <employee_salary>205500</employee_salary>
+         <employee_age>39</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>10</id>
+         <employee_name>Sonya Frost</employee_name>
+         <employee_salary>103600</employee_salary>
+         <employee_age>23</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>11</id>
+         <employee_name>Jena Gaines</employee_name>
+         <employee_salary>90560</employee_salary>
+         <employee_age>30</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>12</id>
+         <employee_name>Quinn Flynn</employee_name>
+         <employee_salary>342000</employee_salary>
+         <employee_age>22</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>13</id>
+         <employee_name>Charde Marshall</employee_name>
+         <employee_salary>470600</employee_salary>
+         <employee_age>36</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>14</id>
+         <employee_name>Haley Kennedy</employee_name>
+         <employee_salary>313500</employee_salary>
+         <employee_age>43</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>15</id>
+         <employee_name>Tatyana Fitzpatrick</employee_name>
+         <employee_salary>385750</employee_salary>
+         <employee_age>19</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>16</id>
+         <employee_name>Michael Silva</employee_name>
+         <employee_salary>198500</employee_salary>
+         <employee_age>66</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>17</id>
+         <employee_name>Paul Byrd</employee_name>
+         <employee_salary>725000</employee_salary>
+         <employee_age>64</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>18</id>
+         <employee_name>Gloria Little</employee_name>
+         <employee_salary>237500</employee_salary>
+         <employee_age>59</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>19</id>
+         <employee_name>Bradley Greer</employee_name>
+         <employee_salary>132000</employee_salary>
+         <employee_age>41</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>20</id>
+         <employee_name>Dai Rios</employee_name>
+         <employee_salary>217500</employee_salary>
+         <employee_age>35</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>21</id>
+         <employee_name>Jenette Caldwell</employee_name>
+         <employee_salary>345000</employee_salary>
+         <employee_age>30</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>22</id>
+         <employee_name>Yuri Berry</employee_name>
+         <employee_salary>675000</employee_salary>
+         <employee_age>40</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>23</id>
+         <employee_name>Caesar Vance</employee_name>
+         <employee_salary>106450</employee_salary>
+         <employee_age>21</employee_age>
+         <profile_image/>
+      </e>
+      <e>
+         <id>24</id>
+         <employee_name>Doris Wilder</employee_name>
+         <employee_salary>85600</employee_salary>
+         <employee_age>23</employee_age>
+         <profile_image/>
+      </e>
+   </data>
+</Response>
