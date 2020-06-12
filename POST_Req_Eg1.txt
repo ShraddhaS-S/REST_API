@@ -1,0 +1,11 @@
+POST Request : http://thetestingworldapi.com
+
+POST response :
+
+<Response xmlns="http://thetestingworldapi.com/api/studentsDetails">
+   <id>489438</id>
+   <first_name>Ashish</first_name>
+   <middle_name>Navin</middle_name>
+   <last_name>Sharma</last_name>
+   <date_of_birth>20-11-1999</date_of_birth>
+</Response>
